@@ -7,8 +7,4 @@ A place for me to put some useful examples I found around using golang.
 - [Hide ID](./hide/README.md) - Use sequential ids in json
 - [Expr](./expr/README.md) - Expression language executed in golang
 - [Context Timeouts](./context-timeouts/README.md) - Simple context deadlines example
-
-## To Do
-
-- [ ] Null values
-- [ ] Factory / Faker
+- [Go Routines](./go-routines/README.md) - Common patters using goroutines
