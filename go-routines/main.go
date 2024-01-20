@@ -34,6 +34,8 @@ func bufferedChannel() {
 	fmt.Println("Buffered channel example")
 
 	go func() {
+		defer close(ch)
+
 		ch <- 1
 		fmt.Printf("Sent 1 message\n")
 		ch <- 2
@@ -45,7 +47,6 @@ func bufferedChannel() {
 		ch <- 5
 		fmt.Printf("Sent 5 message\n")
 
-		close(ch)
 	}()
 
 	for v := range ch {

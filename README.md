@@ -8,3 +8,7 @@ A place for me to put some useful examples I found around using golang.
 - [Expr](./expr/README.md) - Expression language executed in golang
 - [Context Timeouts](./context-timeouts/README.md) - Simple context deadlines example
 - [Go Routines](./go-routines/README.md) - Common patters using goroutines
+
+## Backlog
+
+- [ ] [Samber Dependency Injection](://github.com/samber/do)
