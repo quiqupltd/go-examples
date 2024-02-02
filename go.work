@@ -1,11 +1,12 @@
-go 1.21.5
+go 1.21.6
 
 use (
 	./atomic
+	./code-generation
+	./context-timeouts
+	./expr
 	./functional-options
 	./generic-ids
-	./hide
-	./expr
-	./context-timeouts
 	./go-routines
+	./hide
 )
