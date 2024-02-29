@@ -7,8 +7,36 @@ import (
 )
 
 func main() {
+	unbufferedChannel()
 	bufferedChannel()
 	waitGroup()
+}
+
+func unbufferedChannel() {
+	ch := make(chan int)
+
+	fmt.Println("Unbuffered channel example")
+
+	go func() {
+		defer close(ch)
+
+		ch <- 1
+		fmt.Printf("Sent 1 message\n")
+		ch <- 2
+		fmt.Printf("Sent 2 message\n")
+		ch <- 3
+		fmt.Printf("Sent 3 message\n")
+		ch <- 4
+		fmt.Printf("Sent 4 message\n")
+		ch <- 5
+		fmt.Printf("Sent 5 message\n")
+
+	}()
+
+	for v := range ch {
+		time.Sleep(100 * time.Millisecond)
+		fmt.Println(v)
+	}
 }
 
 // Output is:
@@ -29,7 +57,7 @@ func main() {
 // The reason you see two messages first `for v := range ch {` will immediatly receieve the first message. Then delay before
 // receiving the next
 func bufferedChannel() {
-	ch := make(chan int, 1)
+	ch := make(chan int, 5)
 
 	fmt.Println("Buffered channel example")
 
