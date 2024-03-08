@@ -10,6 +10,7 @@ A place for me to put some useful examples I found around using golang.
 - [Expr](./expr/README.md) - Expression language executed in golang
 - [Context Timeouts](./context-timeouts/README.md) - Simple context deadlines example
 - [Go Routines](./go-routines/README.md) - Common patters using goroutines
+- [Converting to Types](./converting-to-types/README.md) - Converting to types
 
 ## Large Examples
 

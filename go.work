@@ -4,6 +4,7 @@ use (
 	./atomic
 	./code-generation
 	./context-timeouts
+	./converting-to-types
 	./expr
 	./functional-options
 	./generic-ids
