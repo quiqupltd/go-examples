@@ -65,8 +65,18 @@ func main() {
 	fmt.Println(personInterface)
 
 	// Cast the interface to a person
-	newPerson := personInterface.(*Person)
-	fmt.Println(newPerson.Name)
-	fmt.Println(newPerson.Age)
+	if newPerson, ok := personInterface.(*Person); ok {
+		fmt.Println(newPerson.Name)
+		fmt.Println(newPerson.Age)
+	} else {
+		fmt.Print("Error: personInterface is not a Person")
+	}
+
+	// Expect to error
+	if testAnimal, ok := personInterface.(*Animal); ok {
+		fmt.Println(testAnimal.Breed)
+	} else {
+		fmt.Print("Error: personInterface is not an Animal")
+	}
 
 }
