@@ -1,6 +1,6 @@
 module github.com/danhawkins/go-examples/hide
 
-go 1.21.5
+go 1.23
 
 require (
 	github.com/emvi/hide v1.1.4

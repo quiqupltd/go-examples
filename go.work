@@ -1,4 +1,4 @@
-go 1.21.6
+go 1.23
 
 use (
 	./atomic
@@ -10,4 +10,5 @@ use (
 	./generic-ids
 	./go-routines
 	./hide
+	./wire-di
 )
