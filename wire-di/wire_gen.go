@@ -6,14 +6,20 @@
 
 package main
 
+import (
+	"github.com/danhawkins/go-examples/wire/event"
+	"github.com/danhawkins/go-examples/wire/greeter"
+	"github.com/danhawkins/go-examples/wire/message"
+)
+
 // Injectors from wire.go:
 
-func InitializeEvent(phrase string) (Event, error) {
-	message := NewMessage(phrase)
-	greeter := NewGreeter(message)
-	event, err := NewEvent(greeter)
+func InitializeEvent(phrase string) (event.Event, error) {
+	messageMessage := message.NewMessage(phrase)
+	greeterGreeter := greeter.NewGreeter(messageMessage)
+	eventEvent, err := event.NewEvent(greeterGreeter)
 	if err != nil {
-		return Event{}, err
+		return event.Event{}, err
 	}
-	return event, nil
+	return eventEvent, nil
 }
