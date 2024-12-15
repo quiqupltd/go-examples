@@ -1,3 +1,3 @@
 module github.com/danhawkins/go-examples/functional-options
 
-go 1.21.5
+go 1.23
