@@ -1,6 +1,6 @@
 module github.com/quiqupltd/go-examples/go-routines
 
-go 1.23
+go 1.24
 
 require (
 	github.com/emvi/hide v1.1.4
