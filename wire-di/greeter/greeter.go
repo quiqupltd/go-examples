@@ -3,7 +3,7 @@ package greeter
 import (
 	"time"
 
-	"github.com/danhawkins/go-examples/wire/message"
+	"github.com/quiqupltd/go-examples/wire/message"
 )
 
 type Greeter struct {

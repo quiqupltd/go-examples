@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/danhawkins/go-examples/wire/greeter"
+	"github.com/quiqupltd/go-examples/wire/greeter"
 )
 
 type Event struct {

@@ -1,3 +1,3 @@
-module github.com/danhawkins/go-examples/functional-options
+module github.com/quiqupltd/go-examples/functional-options
 
 go 1.23

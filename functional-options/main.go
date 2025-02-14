@@ -4,7 +4,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/danhawkins/go-examples/functional-options/server"
+	"github.com/quiqupltd/go-examples/functional-options/server"
 )
 
 func main() {

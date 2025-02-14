@@ -1,4 +1,4 @@
-module github.com/danhawkins/go-examples/generic-ids
+module github.com/quiqupltd/go-examples/generic-ids
 
 go 1.23
 

@@ -1,4 +1,4 @@
-module github.com/danhawkins/go-examples/go-routines
+module github.com/quiqupltd/go-examples/go-routines
 
 go 1.23
 

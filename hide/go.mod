@@ -1,4 +1,4 @@
-module github.com/danhawkins/go-examples/hide
+module github.com/quiqupltd/go-examples/hide
 
 go 1.23
 

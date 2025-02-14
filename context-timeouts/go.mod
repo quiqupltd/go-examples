@@ -1,3 +1,3 @@
-module github.com/danhawkins/go-examples/context-timeouts
+module github.com/quiqupltd/go-examples/context-timeouts
 
 go 1.23

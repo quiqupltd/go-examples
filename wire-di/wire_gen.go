@@ -7,9 +7,9 @@
 package main
 
 import (
-	"github.com/danhawkins/go-examples/wire/event"
-	"github.com/danhawkins/go-examples/wire/greeter"
-	"github.com/danhawkins/go-examples/wire/message"
+	"github.com/quiqupltd/go-examples/wire/event"
+	"github.com/quiqupltd/go-examples/wire/greeter"
+	"github.com/quiqupltd/go-examples/wire/message"
 )
 
 // Injectors from wire.go:

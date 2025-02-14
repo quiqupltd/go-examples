@@ -1,3 +1,3 @@
-module github.com/danhawkins/go-examples/converting-to-types
+module github.com/quiqupltd/go-examples/converting-to-types
 
 go 1.23

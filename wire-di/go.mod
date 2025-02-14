@@ -1,4 +1,4 @@
-module github.com/danhawkins/go-examples/wire
+module github.com/quiqupltd/go-examples/wire
 
 go 1.24
 
